@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>Python Documentation</header>
+          <a href="#Introduction" class="nav-link">Introduction</a>
+          <a href="#Casting" class="nav-link">Casting</a>
+          <a href="#Classes" class="nav-link">Classes</a>
+          <a href="#Conditionals" class="nav-link">Conditionals</a>
+          <a href="#Data_Types" class="nav-link">Data Types</a>
+          <a href="#Functions" class="nav-link">Functions</a>
+          <a href="#Iterators" class="nav-link">Iterators</a>
+          <a href="#Loops" class="nav-link">Loops</a>
+          <a href="#Recursion" class="nav-link">Recursion</a>
+          <a href="#Variables" class="nav-link">Variables</a>
+          <a href="#Reference" class="nav-link">Reference</a>
+      </nav>
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <p>Python is a general-purpose, versatile, and powerful
+          programming language. It’s a great first language because
+          it’s concise and easy to read. Whatever you want to do,
+          Python can do it. From data analysis to data visualization,
+          web development to machine learning, Python is the language for you.
+        <br>
+        It was created by Guido van Rossum in 1991 and 
+        was named after the British comedy show, Monty Python’s Flying Circus.</p>
+      </section>
+      <section id="Casting" class="main-section">
+        <header>Casting</header>
+        <p>Casting, also known as type conversion, is a process that converts
+          a variable’s data type into another data type. These conversions can
+          be implicit (automatically interpreted) or explicit (using built-in functions).</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        </ul>
+        <code>
+          y = 7 + 2.2
+          # Python automatically type casts y into float
+
+          print(y)
+          # Output: 9.2
+
+          print(type(y))
+          # Output: <class 'float'>
+        </code>
+      </section>
+      <section id="Classes" class="main-section">
+        <header>Classes</header>
+        <p>Classes are templates used to define the properties
+          and methods of objects in code. They can describe the
+          kinds of data that the class holds, and also how
+          a programmer interacts with that data.
+        <br>
+        The usage of classes are a key element of object-oriented
+        programming (OOP) where “class instances” are created to
+        implement design principles such as inheritance and encapsulation.</p>
+<code>class Home:
+  # Class body starts here</code>
+      </section>
+      <section id="Conditionals" class="main-section">
+        <header>Conditionals</header>
+        <p>Conditionals take an expression, which is code that
+          evaluates to determine a value, and checks if it is True or False.
+          If it’s True, we can tell our program to do one thing — 
+          we can even account for False to do another.
+<br>
+          As we write more complex programs, conditionals allow us to
+          address multiple scenarios and make our programs more robust.</p>
+      <code>test_value = 100
+
+      if test_value > 1:
+      print("This code is executed!")
+
+      if test_value > 1000:
+      print("This code is NOT executed!")
+
+      print("Program continues at this point.")</code>
+      </section>
+      <section id="Data_Types" class="main-section">
+        <header>Data Types</header>
+        <p>Python is a strongly typed language, 
+          in the sense that at runtime it prevents 
+          typing errors and it engages in little implicit 
+          type conversion or casting, i.e. converting one 
+          type to another without a specific call 
+          to a conversion function.</p>
+        <code>codecademy = 575
+        codecademy = "575 broadway"</code>
+      </section>
+      <section id="Functions" class="main-section">
+        <header>Functions</header>
+        <p>Some tasks need to be performed multiple times 
+          within a program. Rather than rewrite the same 
+          code in multiple places, a function may be defined 
+          using the def keyword. Function definitions may 
+          include parameters, providing data input to the function.</p>
+        <code>def my_function(value):
+        return value + 1
+
+        print(my_function(2))
+        print(my_function(3 + 5))</code>
+      </section>
+      <section id="Iterators" class="main-section">
+        <header>Iterators</header>
+        <p>In Python, an iterator is an object representing a 
+          collection of elements (such as data or methods) where 
+          each element can be accessed by traversing through the 
+          collection to perform the required tasks.
+<br>
+          An iterator supports the next() function which takes 
+          no arguments and always returns the next element of the 
+          collection. When all elements are exhausted, it returns 
+          the StopIteration exception.</p>
+      </section>
+      <section id="Loops" class="main-section">
+        <header>Loops</header>
+        <p>A loop is a control structure that can execute a statement
+           or group of statements repeatedly. Python has three types 
+           of loops: while loops, for loops, and nested loops.</p>
+      </section>
+      <section id="Recursion" class="main-section">
+        <header>Recursion</header>
+        <p>Functions in Python can call themselves — a concept known 
+          as “recursion”. Recursion is a technique that allows a 
+          function to be broken down and operated on more efficiently.</p>
+      </section>
+      <section id="Variables" class="main-section">
+        <header>Variables</header>
+        <p>A variable is used to store data that will be used by the 
+          program. This data can be a number, a string, a Boolean, 
+          a list or some other data type. Every variable has a name 
+          which can consist of letters, numbers, and the underscore character _.
+<br>
+          The equal sign = is used to assign a value to a variable. 
+          After the initial assignment is made, the value of a variable
+          can be updated to new values as needed.</p>
+      </section>
+      <section id="Reference" class="main-section">
+        <header>Reference</header>
+        <p>For more Python documentation, visit 
+        <a href="https://www.codecademy.com/resources/docs/python">CodeAcademy</a>.</p>
+      </section>
+    </main>
+  </body>
